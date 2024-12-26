@@ -7,7 +7,7 @@ console.log(mySet)
 
 // inicializacion
 
- mySet = new Set(["greizel", "sension", " es marravillosa", 27, true, " brainmourev@gmail.com"])
+ mySet = new Set(["greizel", "sension", " es marravillosa", 27, true, "brainmourev@gmail.com"])
  console.log(mySet)
 
  // metodos comunes en set
@@ -56,8 +56,13 @@ console.log(myArray)
 mySet= new Set(myArray)
 console.log(mySet)
 
-// principal diferencia entre array y set 
+// principal diferencia entre array y set  : es que no admite Duplicados
 
+mySet.add("brainmourev@gmail.com")
+mySet.add("brainmourev@gmail.com")
+mySet.add("brainmourev@gmail.com")
+mySet.add("BrainMourev@gmail.com") // CAMBIE LA B Y M POR MAYUSCUSLAS  Y ahi si lo admite
+console.log(mySet)
 
 
 
