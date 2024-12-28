@@ -94,7 +94,7 @@ myArray.push("grei"," mayleny","sension", "guerra", 27, true)
 let myNewArray=myArray.slice(1,3)// le estamos diciendo quiero este pedazo desde el elemento desde el 1 hasta el 2 , el 3 no lo tomo encuenta.
 console.log(myNewArray)
 
-//splice: 
+//splice: Elimina el elemento en el índice 1 (tercera posición en base 3)
 myArray.splice(1,3)
 console.log(myArray)
 

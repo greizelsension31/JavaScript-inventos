@@ -28,7 +28,7 @@ console.log(myMap)
 
 //Metodos y propiedas 
 
-// operacion SET: cambiay no puede a er repetidos en clave 
+// operacion SET: cambia y no puede a ser repetidos en clave 
 
 myMap.set("alias ", "Mouredev")
 myMap.set("name", "brais Moure")
@@ -55,7 +55,7 @@ console.log(myMap)
 console.log(myMap.keys())
 console.log(myMap.values())
 
-// nos trae todos los lementos del mapa clave y valores. no por partes como arriba con values y keys.
+// nos trae todos los elementos del mapa clave y valores. no por partes como arriba con values y keys.
 console.log(myMap.entries())
 
 // operacion size : cual es el tamano de este mapa
